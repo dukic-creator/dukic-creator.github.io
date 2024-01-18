@@ -444,15 +444,14 @@
 										<a id="send_message" href="*">Send Message</a>
 									</div> -->
 
-									<div class="container">
-									<h1> Contact Form</h1>
-									<form action="https://formsubmit.co/el/pakawu" method="POST">
-										<input id="name" type="text" placeholder="Full Name" required>
-										<input id="email" type="text" placeholder="Email" required>
-										<textarea id="message" placeholder="Message" required></textarea>
-										<button id="send_message">Send</button>
-									</form>
-									</div>
+									<form
+ 									 action="https://formspree.io/f/xpzvweoe"
+  										method="POST">
+										<label>Your Name: <input type="name" name="name"></label>
+  										<label>Your Email:<input type="email" name="email"></label>
+										<label>Your Message:<textarea name="message"></textarea></label>
+  										<!-- your other form fields go here -->
+										<button type="submit">Send</button></form>
 									<!-- If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  -->
 
 								</form>
