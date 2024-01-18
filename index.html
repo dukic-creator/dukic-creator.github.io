@@ -226,7 +226,7 @@
 								<img class="svg" src="img/svg/photoshop.svg" alt="" />
 								<h3>Adobe Photoshop</h3>
 								<p>
-									With my use of Adobe Photoshop, I am able to create quality posters, mostly about Football.
+									Adobe Photoshop is a versatile image editing software, widely used for retouching, design, and creative projects.
 								</p>
 							</div>
 						</li>
@@ -234,35 +234,35 @@
 							<div class="inner">
 								<img class="svg" src="img/svg/ai.svg" alt="" />
 								<h3>Adobe Illustrator</h3>
-								<p> Able to create logos, business cards and banners with my experiences in Adobe Illustrator</p>
+								<p>Adobe Illustrator is a graphic design software for creating vector graphics, logos, and illustrations with precision and creativity.</p>
 							</div>
 						</li>
 						<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
 							<div class="inner">
 								<img class="svg" src="img/svg/pr.svg" alt="" />
 								<h3>Adobe Premiere Pro</h3>
-								<p>With my many years of experience, especially during lockdown, I am able to bring fast, quality videos.</p>
+								<p>Premiere Pro is Adobe's professional video editing software, offering advanced tools for editing, color grading, and audio processing.</p>
 							</div>
 						</li>
 						<li class="wow fadeInLeft" data-wow-duration="1.5s">
 							<div class="inner">
 								<img class="svg" src="img/svg/mic.svg" alt="" />
 								<h3>Podcasting</h3>
-								<p> My podcasting skills are immaculate, being able to deliever good questions and giving solid answers.</p>
+								<p>A podcast is a digital audio or video file series available for streaming or download, often discussing specific topics.</p>
 							</div>
 						</li>
 						<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">
 							<div class="inner">
 								<img class="svg" src="img/svg/thinker.svg" alt="" />
 								<h3>Critical Thinking</h3>
-								<p> I have a different point of view from everyone else, that is my unique skill.</p>
+								<p>Disciplined analysis, evaluation, and interpretation of information, fostering reasoned problem-solving and informed decision-making.</p>
 							</div>
 						</li>
 						<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
 							<div class="inner">
 								<img class="svg" src="img/svg/crown.svg" alt="" />
 								<h3>Leadership</h3>
-								<p>I am always able to guide a team of 5 when it comes to the right topic and theme.</p>
+								<p>Inspiring and guiding others towards shared goals, fostering collaboration, and achieving collective success.</p>
 							</div>
 						</li>
 					</ul>
@@ -414,37 +414,25 @@
 					<div class="wrapper">
 						<div class="left wow fadeInLeft" data-wow-duration="1.5s">
 							<div class="fields">
-								<form action="/" method="post" class="contact_form" id="contact_form" onsubmit="sendEmail()">
+								<form action="/" method="post" class="contact_form" id="contact_form">
 									<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 									<div class="empty_notice"><span>Please Fill Required Fields</span></div>
 									<div class="first">
 										<ul>
 											<li>
-												<input type="text" id="name" placeholder="Your Name">
-												<input type="email" id="email" placeholder="Email">
-												<textarea type="message" rows="4" placeholder="How may we assist you?"></textarea>
-												<button type="send_message" >Send Message</button>
+												<input id="name" type="text" placeholder="Name" autocomplete="off">
+											</li>
+											<li>
+												<input id="email" type="text" placeholder="Email" autocomplete="off">
 											</li>
 										</ul>
 									</div>
-									<script src="https://smtpjs.com/v3/smtp.js"></script>
-									<script>
-										function sendEmail(){
-										Email.send({
-  											Host : "smtp.elasticemail.com",
-  											Username : "username",
-    										Password : "password",
-    										To : 'them@website.com',
-    										From : "you@isp.com",
-   											Subject : "This is the subject",
-   											 Body : "And this is the body"
-											}).then(
-  											message => alert(message)
-											);
-										}
-									</script>
-									
-							
+									<div class="last">
+										<textarea id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="arlo_tm_button" data-color="dark">
+										<a id="send_message" href="*">Send Message</a>
+									</div>
 
 									<!-- If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  -->
 

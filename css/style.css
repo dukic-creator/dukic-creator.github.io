@@ -2097,29 +2097,3 @@ body.dark .arlo_tm_settings .cursor li .svg,
 	.arlo_tm_counter_section ul li{width: 100%;padding-left: 0px;}
 }	
 
-form h3{
-	color: #555;
-	font-weight: 800;
-	margin-bottom: 20x;
-}
-
-form input, form text{
-	border: 0;
-	margin: 10px 0;
-	padding: 20x;
-	outline: none;
-	background: #f5f5f5
-}
-form-button{
-	padding: 15px;
-	background: #4470B7;
-	color: #fff; 
-	font-size: 18px;
-	border: 0;
-	outline: none;
-	cursor: pointer;
-	width: 150px;
-	margin: 20px auto 0;
-	border-radius: 30px;
-
-}
