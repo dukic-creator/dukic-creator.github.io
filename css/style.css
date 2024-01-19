@@ -1468,7 +1468,7 @@ textarea {
 
 button {
 	width: 8rem;
-	padding: 1.4rem;
+	padding: 20px;
 	cursor: pointer;
 	background-color: #3A00FF;
 	color: white;
