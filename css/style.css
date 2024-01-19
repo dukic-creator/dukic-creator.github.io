@@ -1486,8 +1486,7 @@ button {
 	cursor: pointer;
 	background-color: #3A00FF;
 	color: white;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 10px;
+	font-size: 15px;
 	border-radius: 15px;
 }
 
