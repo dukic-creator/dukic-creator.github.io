@@ -1479,6 +1479,7 @@ button {
 	cursor: pointer;
 	background-color: #3A00FF;
 	color: white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	border-radius: 15px;
 }
 
