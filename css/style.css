@@ -1539,7 +1539,7 @@ button::before{
 }
 
 button:hover::before{
-	transform: scaleY(5);
+	transform: scaleY(1);
 }
 
 /*.btn{
