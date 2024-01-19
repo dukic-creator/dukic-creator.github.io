@@ -1471,6 +1471,12 @@ form {
 	gap: 1rem;
 }
 
+textarea {
+	border: 1px ;
+    background-color: #939393;
+
+}
+
 
 
 button {
