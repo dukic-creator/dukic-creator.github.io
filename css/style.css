@@ -1458,6 +1458,7 @@ input {
 	border: none;
 	outline: none;
 	padding-left: 25px;
+	padding-top: 25px;
 	font-weight: 500;
 	color: white;
 	border-radius: 50px;
