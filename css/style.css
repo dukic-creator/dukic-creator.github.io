@@ -1494,7 +1494,7 @@ input {
 textarea {
 	width: 400px;
 	height: 100px;
-	border: 1rem ;
+	box-sizing: border-box ;
     background-color: #ffffff;
 
 }
@@ -1574,7 +1574,7 @@ button {
   width: 6px;
   height: 6px;
   z-index: 100;
-  background-color: #e65f78;
+  background-color: #3A00FF;
   -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
   transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -1583,7 +1583,7 @@ button {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #e65f78;
+  background-color: #3A00FF;
   opacity: .3;
 }
 .cursor-outer {
@@ -1591,7 +1591,7 @@ button {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #e65f78;
+  border: 2px solid #3A00FF;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
@@ -2162,29 +2162,4 @@ body.dark .arlo_tm_settings .cursor li .svg,
 	.arlo_tm_counter_section ul li{width: 100%;padding-left: 0px;}
 }	
 
-* {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	border: 0;
-}
 
-form {
-	display: flex;
-	flex-direction: column;
-	width: 24rem;
-	gap: 1rem;
-}
-
-textarea {
-	padding: 8rem;
-	border: 1px solid#000;
-}
-
-button {
-	width: 8rem;
-	padding: 1.4rem;
-	cursor: pointer;
-	background-color: #3A00FF;
-	color: white;
-}
