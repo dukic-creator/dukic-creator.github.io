@@ -1349,27 +1349,27 @@ body.modal{
 /*	10) ARLO CONTACT
 /*---------------------------------------------------*/
 
-form{
+.arlo_tm_contact{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 140px 0px 140px 0px;
 }
-label{
+.arlo_tm_contact .contact_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left; 
 }
-label{
+.arlo_tm_contact .contact_inner .wrapper{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	padding-top: 43px;
 }
-textarea{
+.arlo_tm_contact .desc{
 	max-width: 50%;
 	float: left;
 	padding-top: 73px;
@@ -2097,3 +2097,4 @@ body.dark .arlo_tm_settings .cursor li .svg,
 	.arlo_tm_counter_section ul li{width: 100%;padding-left: 0px;}
 }	
 
+form {}
