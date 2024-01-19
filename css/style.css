@@ -1574,7 +1574,7 @@ button {
   width: 6px;
   height: 6px;
   z-index: 100;
-  background-color: #3A00FF;
+  background-color: #4169e1;
   -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
   transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -1583,7 +1583,7 @@ button {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #3A00FF;
+  background-color: #4169e1;
   opacity: .3;
 }
 .cursor-outer {
@@ -1591,7 +1591,7 @@ button {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #3A00FF;
+  border: 2px solid #4169e1;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
