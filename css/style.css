@@ -1486,6 +1486,7 @@ button {
 	background-color: #3A00FF;
 	color: white;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 10px;
 	border-radius: 15px;
 }
 
