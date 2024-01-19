@@ -1447,23 +1447,28 @@ body.modal{
   width: 100%;
 } */
 
+span {
+	color: #3A00FF;
+}
+
+h3 {
+	padding-bottom: 75px;
+	font-weight: bold;
+}
+
 * {
+	padding-bottom: 25;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+label {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
-input {
-	width: 400px;
-	height: 50px;
-	border: none;
-	outline: none;
-	padding-left: 25px;
-	padding-top: 25px;
-	font-weight: 500;
-	color: black;
-	border-radius: 50px;
 
-}
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -1471,9 +1476,26 @@ form {
 	gap: 1rem;
 }
 
+
+input {
+	width: 400px;
+	height: 50px;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	padding-left: 25px;
+	padding-top: 25px;
+	font-weight: 500;
+	color: black;
+	border-radius: 50px;
+}
+
+
 textarea {
-	border: 1px ;
-    background-color: #939393;
+	width: 400px;
+	height: 100px;
+	box-sizing: border-box ;
+    background-color: #ffffff;
 
 }
 
@@ -1485,7 +1507,7 @@ button {
 	cursor: pointer;
 	background-color: #3A00FF;
 	color: white;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 15px;
 	border-radius: 15px;
 }
 
@@ -1552,7 +1574,7 @@ button {
   width: 6px;
   height: 6px;
   z-index: 100;
-  background-color: #e65f78;
+  background-color: #3A00FF;
   -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
   transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -1561,7 +1583,7 @@ button {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #e65f78;
+  background-color: #3A00FF;
   opacity: .3;
 }
 .cursor-outer {
@@ -1569,7 +1591,7 @@ button {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #e65f78;
+  border: 2px solid #3A00FF;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
