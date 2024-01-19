@@ -1452,12 +1452,12 @@ span {
 }
 
 h3 {
-	padding-bottom: 5px;
+	padding-bottom: 75px;
 	font-weight: bold;
 }
 
 * {
-	padding: 0;
+	padding-bottom: 25;
 	margin: 0;
 	box-sizing: border-box;
 }
