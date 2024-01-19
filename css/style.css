@@ -2140,29 +2140,4 @@ body.dark .arlo_tm_settings .cursor li .svg,
 	.arlo_tm_counter_section ul li{width: 100%;padding-left: 0px;}
 }	
 
-* {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	border: 0;
-}
 
-form {
-	display: flex;
-	flex-direction: column;
-	width: 24rem;
-	gap: 1rem;
-}
-
-textarea {
-	padding: 8rem;
-	border: 1px solid#000;
-}
-
-button {
-	width: 8rem;
-	padding: 1.4rem;
-	cursor: pointer;
-	background-color: #3A00FF;
-	color: white;
-}
