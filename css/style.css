@@ -546,10 +546,13 @@ h6 { font-size: 16px; }
 	padding-top: 100px;
 }
 .arlo_tm_main_title{
-	width: 100%;
+	margin: 0 auto;
+	min-width: 500px;
+	width: 75%;
 	height: auto;
 	clear: both;
 	float: left;
+
 }
 .arlo_tm_main_title span{
 	color: #e65f78;
@@ -1345,6 +1348,31 @@ body.modal{
 	right: 0px;
 	z-index: 4;
 }
+
+.arlo_tm_about .wrapper_algoritam {
+
+	display: flex;
+
+}
+
+
+.algoritam_fotka {
+	float: right;
+	width: 296px;
+	height: 395px;
+	margin-left: 20px;
+	border-radius: 20px;
+
+}
+
+.algoritam_tekst {
+	margin-top: 40px;
+	width: 450px;
+}
+
+
+
+
 
 /*---------------------------------------------------*/
 /*	10) ARLO CONTACT
