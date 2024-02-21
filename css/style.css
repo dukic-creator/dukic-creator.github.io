@@ -1367,8 +1367,8 @@ body.modal{
 
 .iqos_fotka {
 	float: right;
-	width: 296px;
-	height: 395px;
+	width: 35%;
+	height: 35%;
 	margin-left: 20px;
 	border-radius: 20px;
 
@@ -1377,10 +1377,10 @@ body.modal{
 .crowd_fotka {
 		width: 600px;
 		height: 399px;
-		display: block;
+	display: block;
  margin-top: 150px;
  margin-left: auto;
- margin-right: auto;
+ margin-right: auto; 
   border-radius: 25px;
   margin-bottom: 50px;
 }
