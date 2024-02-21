@@ -1362,7 +1362,26 @@ body.modal{
 	height: 395px;
 	margin-left: 20px;
 	border-radius: 20px;
+	
+	}
 
+.iqos_fotka {
+		float: right;
+		width: 296px;
+		height: 444px;
+		margin-left: 20px;
+		border-radius: 20px;
+
+}
+
+.crowd_fotka {
+		width: 600px;
+		height: 399px;
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  margin-bottom: 150px;
 }
 
 .algoritam_tekst {
