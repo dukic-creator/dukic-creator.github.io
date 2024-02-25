@@ -1375,10 +1375,10 @@ body.modal{
 }
 
 .crowd_fotka {
-		width: 600px;
-		height: 399px;
+		width: 751px;
+		height: 500px;
 	display: block;
- margin-top: 150px;
+ margin-top: 180px;
  margin-left: auto;
  margin-right: auto; 
   border-radius: 25px;
@@ -1386,8 +1386,8 @@ body.modal{
 }
 
 .chatgpt_fotka {
-	width: 600px;
-	height: 399px;
+	width: 751px;
+	height: 500x;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
